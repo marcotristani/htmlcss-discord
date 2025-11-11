@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   font-family: "Shadows Into Light", cursive;
 }
+
 /* Utility class*/
 a {
   text-decoration: none;
@@ -11,11 +13,11 @@ a {
 }
 h1 {
   font-size: 3em;
-  margin:20px 0;
+  margin: 20px 0;
 }
 p {
   font-size: 1.5em;
-  margin:20px 0;
+  margin: 20px 0;
 }
 ul {
   list-style-type: none;
@@ -87,7 +89,7 @@ ul {
 .welcome-title-cointainer {
   width: 50%;
 }
-.button-title{
+.button-title {
   display: flex;
   justify-content: space-evenly;
   padding: 0 10%;
@@ -128,28 +130,29 @@ ul {
 }
 .utility-section {
   display: flex;
+  justify-content: space-between;
   width: 80%;
   height: auto;
   padding: 20px 0;
   margin: 0 auto;
 }
 .contact-section {
-  width: 35%;
+  width: 25%;
+}
+.ita-flag {
+  width: 1.5em;
 }
 .link-section {
-  width: 80%;
+  width: 70%;
   display: flex;
-  list-style-type: none;
 }
 .link-section li {
+  padding: 5px 0;
   width: 25%;
 }
 .end-bar-container {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  height: 40px;
-
 }
 .end-bar {
   display: flex;
@@ -159,4 +162,8 @@ ul {
   width: 80%;
   border-top: 1px solid white;
   margin-bottom: 30px;
+}
+.link-section h2 {
+  color: blue;
+  font-size: 2em;
 }
